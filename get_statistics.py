@@ -6,7 +6,7 @@ from tabulate import tabulate
 
 cnx = mysql.connector.connect(user='root', password='12345',
                               host='localhost',
-                              database='lent_newsdb')
+                              database='test')
 table = cnx.cmd_statistics()
 
 dictlist = []
